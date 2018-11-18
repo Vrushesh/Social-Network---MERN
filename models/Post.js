@@ -18,7 +18,7 @@ const PostSchema = new Schema({
     // Gravatar avatar will either exist or be default
     type: String
   },
-  like: [
+  likes: [
     {
       user: {
         type: Schema.Types.ObjectId,
@@ -26,7 +26,7 @@ const PostSchema = new Schema({
       }
     }
   ],
-  comment: [
+  comments: [
     {
       user: {
         type: Schema.Types.ObjectId,
