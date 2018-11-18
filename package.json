@@ -1,7 +1,7 @@
 {
   "name": "socialmedia",
   "version": "1.0.0",
-  "description": "Social Network for developers (MERN lesson)",
+  "description": "Social Network (MERN Course)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
