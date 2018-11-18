@@ -16,11 +16,12 @@ const UserSchema = new Schema({
     required: true
   },
   avatar: {
+    // Gravatar avatar will either exist or be default
     type: String
   },
   date: {
     type: Date,
-    default: Date.now // Gravatar avatar will either exist or be default
+    default: Date.now
   }
 });
 
